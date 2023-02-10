@@ -1,0 +1,71 @@
+/* button studia*/
+.btn-studia {
+    @extend %flex-centered;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    color: var(--white-color);
+    background-color: var(--design-color);
+    transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      color: var(--white-color);
+      background-color: var(--active-button);
+    }
+  }
+  
+  
+
+/* button close */
+  .button-close {
+    @extend %flex-centered;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--black-color-opacity10);
+    background-color: #fff;
+    fill: var(--black-color);
+    transition: fill 250ms var(--timing-function);
+    &:hover, 
+    &:focus {
+      fill: var(--design-color);
+    }
+  }
+  
+
+  /* button flex */
+  
+  
+  /* button portfolio */
+  .btn-portfolio {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: transparent;
+    box-shadow: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    color: var(--primary-text-color);
+    background-color: var(--light-bgc);
+    transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
+      &:hover,
+      &:focus {
+        color: var(--white-color);
+        background-color: var(--design-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      }
+  }
+
+  

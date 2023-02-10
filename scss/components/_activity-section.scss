@@ -1,0 +1,27 @@
+/*activity-section*/
+.activity-section {
+    &__flex {
+      display: flex;
+      gap: 30px;
+    }
+    
+    &__img-wrapper {
+      position: relative;
+    }
+    
+    &__text {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 70px;
+      width: 100%;
+      background-color: var(--dark-bgc-opacity80);
+      @extend %flex-centered;
+      text-transform: uppercase;
+      color: var(--white-color);
+      font-size: 14px;
+      line-height: 1.17;
+    }
+}
+
+  

@@ -1,0 +1,25 @@
+/* hero-sections */
+.hero-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 200px 0;
+    background-color: var(--dark-bgc);
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),  
+    url(../images/bgi.jpg);
+  background-position: center;
+  }
+  
+.hero-section__title {
+    margin: 0 auto 30px;
+    min-width: 696px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+  }
+  
